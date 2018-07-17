@@ -1,3 +1,5 @@
+//5月17日バージョン
+
 <?php
 define("authKey","sakanasouseiji");
 require_once("./lib/auth.php");
