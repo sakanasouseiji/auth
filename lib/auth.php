@@ -643,7 +643,14 @@ class auth{
 			return false;
 			}
 		}
-		private function read(int $id=0){
+		private function allRead(int $id=0){
+			$string="SELECT * FROM loginLogTable";
+			$stmt=$this->PDO->query($string);
+			if(	!($stmt)	){
+				$this->error="log allRead query error";
+				return false;
+			}
+			$result=$stmt->fetchAll();
 			
 		}
 	}
