@@ -8,7 +8,7 @@ if(	array_shift($getFiles)===__FILE__	){
 //define("hoge")を設定しておく
 //defined("hoge") or exit("アクセスが許可されていません");
 //
-//自動ログインを行うlib
+//自動ログインを行うliblibliblib
 //auth
 //仕様
 //auth(__construct)
